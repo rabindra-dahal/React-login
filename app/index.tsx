@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Image, Keyboard, KeyboardAvoidingView, StyleSheet, Text, TextInput, TouchableWithoutFeedback, View } from 'react-native';
+import {
+  Button, Image, Keyboard, KeyboardAvoidingView,
+  StyleSheet, Text, TextInput, TouchableWithoutFeedback, View
+} from 'react-native';
 
 const Index = () => {
   // login data
