@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Image, Keyboard, KeyboardAvoidingView, StyleSheet, Text, TextInput, TouchableWithoutFeedback, View } from 'react-native';
 
-const Index = () => {
+const LoginValidation = () => {
   // login data
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -124,4 +124,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Index;
+export default LoginValidation;
